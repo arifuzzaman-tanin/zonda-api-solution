@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AA3FFA2B-D559-4C7B-8391-CF004DA7AE9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{700B7511-3CCB-4B34-B283-6CCFA4AB185D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zonda.Application", "Zonda.Application\Zonda.Application.csproj", "{1E267AF5-1E94-4D1D-8D25-ECE02B647C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zonda.Application.Tests", "Zonda.Application.Tests\Zonda.Application.Tests.csproj", "{7DBEF69A-C535-4B8B-9D92-284935E1F209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zonda.Infrastructure", "Zonda.Infrastructure\Zonda.Infrastructure.csproj", "{BDB089AA-4086-4E69-92DC-E4A3E282577F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zonda.Persistance", "Zonda.Persistance\Zonda.Persistance.csproj", "{A9546B52-747A-4EB4-A7D8-1E1FB79F4033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zonda.Api", "Zonda.Api\Zonda.Api.csproj", "{1F5D9FA3-E5D4-4614-AE3D-2085A5313C9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E267AF5-1E94-4D1D-8D25-ECE02B647C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E267AF5-1E94-4D1D-8D25-ECE02B647C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E267AF5-1E94-4D1D-8D25-ECE02B647C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E267AF5-1E94-4D1D-8D25-ECE02B647C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBEF69A-C535-4B8B-9D92-284935E1F209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBEF69A-C535-4B8B-9D92-284935E1F209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBEF69A-C535-4B8B-9D92-284935E1F209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBEF69A-C535-4B8B-9D92-284935E1F209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB089AA-4086-4E69-92DC-E4A3E282577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB089AA-4086-4E69-92DC-E4A3E282577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB089AA-4086-4E69-92DC-E4A3E282577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB089AA-4086-4E69-92DC-E4A3E282577F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9546B52-747A-4EB4-A7D8-1E1FB79F4033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9546B52-747A-4EB4-A7D8-1E1FB79F4033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9546B52-747A-4EB4-A7D8-1E1FB79F4033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9546B52-747A-4EB4-A7D8-1E1FB79F4033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5D9FA3-E5D4-4614-AE3D-2085A5313C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5D9FA3-E5D4-4614-AE3D-2085A5313C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5D9FA3-E5D4-4614-AE3D-2085A5313C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5D9FA3-E5D4-4614-AE3D-2085A5313C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E267AF5-1E94-4D1D-8D25-ECE02B647C95} = {AA3FFA2B-D559-4C7B-8391-CF004DA7AE9D}
+		{7DBEF69A-C535-4B8B-9D92-284935E1F209} = {AA3FFA2B-D559-4C7B-8391-CF004DA7AE9D}
+		{BDB089AA-4086-4E69-92DC-E4A3E282577F} = {700B7511-3CCB-4B34-B283-6CCFA4AB185D}
+		{A9546B52-747A-4EB4-A7D8-1E1FB79F4033} = {700B7511-3CCB-4B34-B283-6CCFA4AB185D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9D0B56F-2952-49C3-8E47-C31BF9599178}
+	EndGlobalSection
+EndGlobal

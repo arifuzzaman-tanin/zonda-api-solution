@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Zonda.Application.Features.CustomerOeder.Commands;
 using Zonda.Application.Features.CustomerOeder.Queries;
 
 namespace Zonda.Api.Controllers
@@ -10,6 +11,13 @@ namespace Zonda.Api.Controllers
         [HttpGet()]
         [Route("GetCustomerOrder")]
         public async Task<IActionResult> CustomerOrderQuery([FromQuery] CustomerOrderQuery query)
+        {
+            return Ok(await Mediator.Send(query));
+        }
+
+        [HttpPost()]
+        [Route("Create")]
+        public async Task<IActionResult> CustomerOrderCreateUpdate([FromBody] CustomerOrderCreateUpdateCommand query)
         {
             return Ok(await Mediator.Send(query));
         }

@@ -21,5 +21,12 @@ namespace Zonda.Api.Controllers
         {
             return Ok(await Mediator.Send(query));
         }
+
+        [HttpDelete()]
+        [Route("Delete")]
+        public async Task<IActionResult> CustomerOrderDelete([FromBody] CustomerOrderDeleteCommand query)
+        {
+            return Ok(await Mediator.Send(query));
+        }
     }
 }

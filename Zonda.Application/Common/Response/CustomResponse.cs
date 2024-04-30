@@ -3,7 +3,9 @@
     public class CustomerOrderMessages
     {
         public static string SuccessfullyCreatedNewOrder => "Product added succesfully to this customer.";
-        public static string FailedToCreatedNewOrder => "Failed to add new product to this customer.";
+        public static string SuccessfullyDeletedOrder => "Product added succesfully to this customer.";
+        public static string FailedToCreatedOrder => "Product deleted succesfully.";
+        public static string FailedToDeleteOrder => "Failed to delete.";
     }
 
     public class CustomResponse<T>

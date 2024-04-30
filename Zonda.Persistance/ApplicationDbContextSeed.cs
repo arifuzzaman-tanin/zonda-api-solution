@@ -105,6 +105,41 @@ namespace Zonda.Persistance
 
                 );
             #endregion
+
+            #region Customer Order
+            modelBuilder.Entity<CustomerOrder>().HasData(
+                new CustomerOrder()
+                {
+                    Id = new Guid("cc931cd1-069d-4026-b3a7-725b77b8c4d0"),
+                    CustomerId = new Guid("fa15ddf8-bbfd-4709-b3a1-ba5b8b89d3bc"),
+                    ProductId = new Guid("fa15ddf8-bbfd-4709-b3a1-ba5b8b89d3bc"),
+                    CreatedOn = new DateTime(2024, 04, 28),
+                    ModifiedOn = null,
+                    DeletedOn = null,
+                    IsDeleted = false
+                },
+                new CustomerOrder()
+                {
+                    Id = new Guid("b3ab9ca6-03d2-4d2c-b15b-fcddb7d9c4c2"),
+                    CustomerId = new Guid("fa15ddf8-bbfd-4709-b3a1-ba5b8b89d3bc"),
+                    ProductId = new Guid("597056d7-5726-4f6f-a0a9-7ed8e8869d1d"),
+                    CreatedOn = new DateTime(2024, 04, 28),
+                    ModifiedOn = null,
+                    DeletedOn = null,
+                    IsDeleted = false
+                },
+                new CustomerOrder()
+                {
+                    Id = new Guid("ced338c2-f13e-4a40-9c9c-67e697f04b88"),
+                    CustomerId = new Guid("fa15ddf8-bbfd-4709-b3a1-ba5b8b89d3bc"),
+                    ProductId = new Guid("31da689c-6ff7-4057-afdc-9ab022629cd3"),
+                    CreatedOn = new DateTime(2024, 04, 28),
+                    ModifiedOn = null,
+                    DeletedOn = null,
+                    IsDeleted = false
+                }
+                );
+            #endregion
         }
     }
 }
